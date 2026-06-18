@@ -1,0 +1,13 @@
+<suite name="API Regression Suite">
+
+    <listeners>
+        <listener class-name="utils.ExtentListener"/>
+    </listeners>
+
+    <test name="Regression Tests">
+        <classes>
+            <class name="user.UserTest" />
+            <class name="store.StoreTest"/>
+        </classes>
+    </test>
+</suite>

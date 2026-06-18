@@ -1,0 +1,29 @@
+2026-06-18 21:28:57 [main] INFO  UserTest - ========================================
+2026-06-18 21:28:57 [main] INFO  UserTest - API Automation Execution Started
+2026-06-18 21:28:57 [main] INFO  UserTest - Initializing Rest Assured Framework
+2026-06-18 21:28:57 [main] INFO  UserTest - ========================================
+2026-06-18 21:28:58 [main] INFO  UserTest - Starting Create User Test
+2026-06-18 21:29:00 [main] INFO  UserTest - Status Code: 200
+2026-06-18 21:29:00 [main] INFO  UserTest - Create User Test Completed
+2026-06-18 21:29:01 [main] INFO  UserTest - Starting Get User Test
+2026-06-18 21:29:03 [main] INFO  UserTest - Status Code: 200
+2026-06-18 21:29:03 [main] INFO  UserTest - Get User Test Completed
+2026-06-18 21:29:03 [main] INFO  UserTest - Starting Update User Test
+2026-06-18 21:29:05 [main] INFO  UserTest - Status Code: 200
+2026-06-18 21:29:05 [main] INFO  UserTest - Update User Test Completed
+2026-06-18 21:29:05 [main] INFO  UserTest - Starting Delete User Test
+2026-06-18 21:29:06 [main] INFO  UserTest - Status Code: 200
+2026-06-18 21:29:06 [main] INFO  UserTest - Delete User Test Completed
+2026-06-18 21:29:06 [main] INFO  StoreTest - Starting Place Order Test
+2026-06-18 21:29:08 [main] INFO  StoreTest - Status Code: 200
+2026-06-18 21:29:08 [main] INFO  StoreTest - Place Order Test Completed
+2026-06-18 21:29:08 [main] INFO  StoreTest - Starting Get Order By Id Test
+2026-06-18 21:29:09 [main] INFO  StoreTest - Status Code: 200
+2026-06-18 21:29:09 [main] INFO  StoreTest - Get Order By Id Test Completed
+2026-06-18 21:29:09 [main] INFO  StoreTest - Starting Delete Order Test
+2026-06-18 21:29:11 [main] INFO  StoreTest - Status Code: 200
+2026-06-18 21:29:11 [main] INFO  StoreTest - Delete Order Test Completed
+2026-06-18 21:29:11 [main] INFO  UserTest - ========================================
+2026-06-18 21:29:11 [main] INFO  UserTest - API Automation Execution Completed
+2026-06-18 21:29:11 [main] INFO  UserTest - Generating Reports
+2026-06-18 21:29:11 [main] INFO  UserTest - ========================================

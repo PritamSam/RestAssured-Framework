@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-18T21:28:58 IST" name="API Regression Suite" finished-at="2026-06-18T21:29:11 IST" duration-ms="13001">
+    <groups>
+    </groups>
+    <test started-at="2026-06-18T21:28:58 IST" name="Regression Tests" finished-at="2026-06-18T21:29:11 IST" duration-ms="13001">
+      <class name="user.UserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:user.UserTest@5c1bd44c]" started-at="2026-06-18T21:28:57 IST" name="setup" finished-at="2026-06-18T21:28:58 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUserTest(models.tesdata.TestData)[pri:1, instance:user.UserTest@5c1bd44c]" started-at="2026-06-18T21:28:58 IST" name="createUserTest" data-provider="apiData" finished-at="2026-06-18T21:29:00 IST" duration-ms="2805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[models.tesdata.TestData@6fa0450e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="getUserTest(models.tesdata.TestData)[pri:2, instance:user.UserTest@5c1bd44c]" started-at="2026-06-18T21:29:01 IST" name="getUserTest" data-provider="apiData" finished-at="2026-06-18T21:29:03 IST" duration-ms="2936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[models.tesdata.TestData@52909a97]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+        <test-method signature="updateUserTest(models.tesdata.TestData)[pri:3, instance:user.UserTest@5c1bd44c]" started-at="2026-06-18T21:29:03 IST" name="updateUserTest" data-provider="apiData" finished-at="2026-06-18T21:29:05 IST" duration-ms="1518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[models.tesdata.TestData@44c27b8b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method signature="deleteUserTest(models.tesdata.TestData)[pri:4, instance:user.UserTest@5c1bd44c]" started-at="2026-06-18T21:29:05 IST" name="deleteUserTest" data-provider="apiData" finished-at="2026-06-18T21:29:06 IST" duration-ms="1422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[models.tesdata.TestData@7aa63f50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:user.UserTest@5c1bd44c]" started-at="2026-06-18T21:29:11 IST" name="tearDown" finished-at="2026-06-18T21:29:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- user.UserTest -->
+      <class name="store.StoreTest">
+        <test-method signature="placeOrderTest(models.tesdata.TestData)[pri:1, instance:store.StoreTest@2c4ca0f9]" started-at="2026-06-18T21:29:06 IST" name="placeOrderTest" data-provider="apiData" finished-at="2026-06-18T21:29:08 IST" duration-ms="1380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[models.tesdata.TestData@3d2b13b1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderTest -->
+        <test-method signature="getOrderByIdTest(models.tesdata.TestData)[pri:2, instance:store.StoreTest@2c4ca0f9]" started-at="2026-06-18T21:29:08 IST" name="getOrderByIdTest" data-provider="apiData" finished-at="2026-06-18T21:29:09 IST" duration-ms="1408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[models.tesdata.TestData@58a7a58d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderByIdTest -->
+        <test-method signature="deleteOrderTest(models.tesdata.TestData)[pri:3, instance:store.StoreTest@2c4ca0f9]" started-at="2026-06-18T21:29:09 IST" name="deleteOrderTest" data-provider="apiData" finished-at="2026-06-18T21:29:11 IST" duration-ms="1414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[models.tesdata.TestData@7db06c50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrderTest -->
+      </class> <!-- store.StoreTest -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- API Regression Suite -->
+</testng-results>
